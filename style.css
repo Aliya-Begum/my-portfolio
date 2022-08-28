@@ -13,6 +13,8 @@ hr{
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
+    position: relative;
+    bottom: 0px;
 
 }
 
@@ -29,25 +31,48 @@ body {
 .link{
     text-decoration: none;
     padding :0.5rem 1rem;
-    border-radius: 0.5rem;
-   
-    
+    border-radius: 1rem;
     
 }
-.link-primary{
+
+.home-link-primary{
     background-color: var(--primary-color) ;
     color: white;
     max-width: 150px;
+    display: block;
+    margin: auto;
+    width:100px;
+}
+.home-link-secondary{
+    
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    display: block;
+    margin: auto;
+    width:100px;
+}
+.blog-link-primary{
+    background-color: var(--primary-color) ;
+    color: white;
+    max-width: 150px;
+    display:block;
+    width: 88px;
+    margin: auto;
     
     
 }
 
-.link-secondary{
-   
+.project-link-primary{
+    background-color: var(--primary-color) ;
+    color: white;
+    max-width: 150px;
+    display: inline-block;
+    margin-left: 160px;
+    width:100px;
+}
+.project-link-secondary{
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
-    
-
 }
 .list-non-bullet{
     list-style: none;
@@ -106,6 +131,7 @@ body {
     padding: 1rem;
     border-radius: 1rem;
     margin: 1rem 0;
+  
 }
 
 .footer{
