@@ -13,8 +13,8 @@ hr{
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
-    position: relative;
-    bottom: 0px;
+    height: 100vh;
+    
 
 }
 
@@ -98,7 +98,9 @@ body {
 .navigation .link-active{
     font-weight: bold;
 }
-
+.navigation ul{
+    padding: 0.5rem;
+}
 .navigation .nav{
     text-align: right;
 }
@@ -140,6 +142,7 @@ body {
    color: white;
    border-top-right-radius: 1rem;
    text-align: center;
+   
 }
 /* .footer .footer-heading{
     text-align: center;
@@ -148,7 +151,9 @@ body {
     color: white;
     padding: 1rem 1rem;
     
+    
 }
 .footer ul{
     padding-inline-start: 0px;
+    
 }
