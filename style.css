@@ -37,7 +37,7 @@ body {
 .link-primary{
     background-color: var(--primary-color) ;
     display: block;
-    width: 108px;
+    width: 117px;
     border-radius: 1rem;
     color: white;
     margin: auto;
