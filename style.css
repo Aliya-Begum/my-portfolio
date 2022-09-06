@@ -37,26 +37,26 @@ body {
 .link-primary{
     background-color: var(--primary-color) ;
     display: block;
-    width: 117px;
-    border-radius: 1rem;
+    width: 137px;
+    border-radius: 2rem;
     color: white;
     margin: auto;
-    padding :0.5rem 0.5rem;
+    padding :0.9rem 1rem;
     border: var(--primary-color) solid 1px;
 }
 
 .link-secondary{
-    border-radius: 1rem;
+    border-radius: 2rem;
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
     display: block;
     margin: auto;
-    width:115px;
-    padding :0.5rem 0.5rem;
+    width:127px;
+    padding :0.9rem 1rem;
 }
 
 .link-blog{
-    width: 106px;
+    width: 125px;
 }
 .flex{
     display: flex;
@@ -69,12 +69,13 @@ body {
 
 .margin-right{
     margin-right: 20px;
-    width: 106px;
+    width: 130px;
 
 }
 
 .margin-left{
     margin-left: 0px;
+    width: 135px;
 }
 
 .list-non-bullet{
