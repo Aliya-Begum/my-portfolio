@@ -41,7 +41,7 @@ body {
     border-radius: 2rem;
     color: white;
     margin: auto;
-    padding :0.9rem 1rem;
+    padding :0.7rem 1rem;
     border: var(--primary-color) solid 1px;
 }
 
@@ -52,7 +52,7 @@ body {
     display: block;
     margin: auto;
     width:127px;
-    padding :0.9rem 1rem;
+    padding :0.7rem 1rem;
 }
 
 .link-blog{
